@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>voice to text converter</h1>
+      <!-- <input type="checkbox" name="checkBox" id="check"> -->
+      <div class="container">
+        <input hidden="" id="check" name="check" type="checkbox">
+        <label class="toggle" for="check">
+            <div class="toggle__circle"></div>
+        </label>
+        <div class="toggle-text">
+            <span>listen</span>
+            <span>speak</span>
+        </div>
+    </div>
+      <textarea placeholder="press button and start speak" id="convert_text"></textarea>
+      <button>Start</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
